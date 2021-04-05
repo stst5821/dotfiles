@@ -29,5 +29,7 @@ powerlineの文字が入っているフォントが複数あるが、見やす�
   
 ## Rictyフォントに変更する
   
-以下の流れでインストール。
+以下の流れでインストール。  
 https://qiita.com/iwaseasahi/items/c755ba1c26f94d2536f6
+  
+上記を含めてDotfilesを作らなきゃ意味ないんだけど、それは一旦保留で。

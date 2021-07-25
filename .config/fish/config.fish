@@ -18,3 +18,7 @@ bind p fish_clipboard_paste
 
 set PATH /usr/local/bin /usr/sbin $PATH
 
+alias ad='git add .'
+alias ci='git commit -m '
+alias ph='git push'
+alias pl='git pull'

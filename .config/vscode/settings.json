@@ -1,0 +1,39 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.statusBarColorControl": false,
+  "editor.quickSuggestions": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabSize": 2,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "vue"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.allowChords": false,
+  "files.associations": {
+    "*.blade.php": "html"
+  },
+  "vscode-pets.position": "explorer",
+  "vscode-pets.theme": "castle",
+  "search.useIgnoreFiles": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#FFF"
+    // "editorCursor.foreground": "#e60033"
+    // "tab.activeBackground": "アクティブなタブの背景色",
+    // "tab.activeForeground": "アクティブなタブの文字色",
+  }
+}

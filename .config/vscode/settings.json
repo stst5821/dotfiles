@@ -22,7 +22,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
   "terminal.integrated.allowChords": false,
   "files.associations": {
     "*.blade.php": "html"
@@ -35,5 +34,6 @@
     // "editorCursor.foreground": "#e60033"
     // "tab.activeBackground": "アクティブなタブの背景色",
     // "tab.activeForeground": "アクティブなタブの文字色",
-  }
+  },
+  "editor.formatOnSave": true
 }

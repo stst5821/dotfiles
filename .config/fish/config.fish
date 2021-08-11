@@ -19,13 +19,14 @@ bind p fish_clipboard_paste
 set PATH /usr/local/bin /usr/sbin $PATH
 
 alias ad='git add .'
-alias ci='git commit -m '
+alias ci='git commit -m'
 alias ph='git push'
 alias co='git checkout'
 alias br='git branch'
 alias pl='git pull'
 alias vs='code .'
 alias d='cd ~/Documents'
-alias ..='cd ..'
+alias .='cd ..'
 alias nr='npm run'
 alias l='ls -la'
+alias t='tig'

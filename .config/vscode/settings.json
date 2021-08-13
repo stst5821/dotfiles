@@ -35,5 +35,10 @@
     // "tab.activeBackground": "アクティブなタブの背景色",
     // "tab.activeForeground": "アクティブなタブの文字色",
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "workbench.editor.wrapTabs": true,
+  "editor.acceptSuggestionOnEnter": "off"
 }

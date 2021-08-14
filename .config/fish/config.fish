@@ -1,4 +1,7 @@
 set -x PATH $HOME/.anyenv/bin $PATH
+set -x PATH $HOME/.nodebrew/current/bin $PATH
+set PATH /usr/local/bin /usr/sbin $PATH
+
 # fishにanyenvを入れる
 # シェルを立ち上げたときに読み込まれるファイルがある。.zrshとか
 # fishだとconfig.fishというのが読み込まれる。
@@ -16,14 +19,21 @@ set -g theme_display_date no
 fish_vi_key_bindings
 bind p fish_clipboard_paste
 
-set PATH /usr/local/bin /usr/sbin $PATH
+# hubコマンドのalias設定
+eval (hub alias -s)
 
+# Github alias
 alias ad='git add .'
 alias ci='git commit -m'
 alias ph='git push'
 alias co='git checkout'
+alias cb='git checkout -b'
 alias br='git branch'
 alias pl='git pull'
+alias gb='git browse'
+alias gc='git compare'
+
+# Other alias
 alias vs='code .'
 alias d='cd ~/Documents'
 alias .='cd ..'

@@ -28,7 +28,6 @@
   },
   "vscode-pets.position": "explorer",
   "vscode-pets.theme": "castle",
-  "search.useIgnoreFiles": false,
   "workbench.colorCustomizations": {
     "tab.activeBorder": "#FFF"
     // "editorCursor.foreground": "#e60033"

@@ -2,6 +2,9 @@ set -x PATH $HOME/.anyenv/bin $PATH
 set -x PATH $HOME/.nodebrew/current/bin $PATH
 set PATH /usr/local/bin /usr/sbin $PATH
 
+set -x PATH $HOME/.rbenv/bin $PATH
+status --is-interactive; and source (rbenv init -|psub)
+
 # fishにanyenvを入れる
 # シェルを立ち上げたときに読み込まれるファイルがある。.zrshとか
 # fishだとconfig.fishというのが読み込まれる。
@@ -22,6 +25,11 @@ bind p fish_clipboard_paste
 # hubコマンドのalias設定
 eval (hub alias -s)
 
+# peco ctrl+rで検索
+function fish_user_key_bindings
+  bind \cr peco_select_history
+end
+
 # Github alias
 alias ad='git add .'
 alias ci='git commit -m'
@@ -40,3 +48,6 @@ alias .='cd ..'
 alias nr='npm run'
 alias l='ls -la'
 alias t='tig'
+alias m='make'
+alias fi='vi ~/.config/fish/config.fish'
+alias reb='exec $SHELL -l'

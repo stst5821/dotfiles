@@ -23,9 +23,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.allowChords": false,
-  "files.associations": {
-    "*.blade.php": "html"
-  },
+
   "vscode-pets.position": "explorer",
   "vscode-pets.theme": "castle",
   "workbench.colorCustomizations": {
@@ -39,5 +37,11 @@
     "**/node_modules": false
   },
   "workbench.editor.wrapTabs": true,
-  "editor.acceptSuggestionOnEnter": "off"
+  "editor.acceptSuggestionOnEnter": "off",
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.associations": {
+    "*.php": "php"
+  }
 }

@@ -166,7 +166,7 @@
           "from": {
             "key_code": "w",
             "modifiers": {
-              "mandatory": ["left_shift"],
+              "mandatory": ["option"],
               "optional": ["any"]
             }
           },

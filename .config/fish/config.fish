@@ -12,6 +12,8 @@ status --is-interactive; and source (rbenv init -|psub)
 anyenv init - fish | source
 # tmux
 
+set -g theme_nerd_fonts yes
+
 # powerlinefontだと文字化けするので無効化する。
 set -g theme_powerline_fonts no
 

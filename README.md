@@ -12,29 +12,29 @@ https://qiita.com/sawa-@github/items/da49c122197c5a46c554
 
 ## oh-my-fish/theme-bobthefish テーマの導入方法
 
-1)fisher インストール (fish をカスタマイズする為に)  
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+基本は、以下のREADMEの通りに進めればOK
 
-2)テーマを入れる  
-fisher install oh-my-fish/theme-bobthefish
+https://github.com/oh-my-fish/theme-bobthefish
 
-3)powerline をインストール  
-git clone https://github.com/powerline/fonts.git
+1. フォントのダウンロード
 
-4)フォントを使えるようにする  
-cd fonts  
-./install.sh
+以下のフォントをダウンロード
 
-5)フォント設定  
-ターミナル->環境設定->プロファイル->テキスト->フォントを変更  
-powerline の文字が入っているフォントが複数あるが、見やすいのを選択する。
+https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Medium/complete/3270-Medium%20Nerd%20Font%20Complete.ttf
 
-## Ricty フォントに変更する
+ダウンロードしたら、ファイルをダブルクリックで実行する。
 
-以下の流れでインストール。  
-https://qiita.com/iwaseasahi/items/c755ba1c26f94d2536f6
+別ウィンドウでフォントのサンプルが出るので、右下のインストールをクリック。
 
-上記を含めて Dotfiles を作らなきゃ意味ないんだけど、それは一旦保留で。
+2. config.fishに追記
+
+`set -g theme_nerd_fonts yes`
+
+config.fishに追記しないと、itermやtmuxを再起動するたびに上記コマンドを打たないといけなくなる。
+
+3. itermを再起動
+
+これでテーマとアイコンが反映されているはず。
 
 ## dotfilesLink.sh で symbolicLink を貼る時の注意点
 

@@ -43,6 +43,11 @@ alias pl='git pull'
 alias gb='git browse'
 alias gc='git compare'
 
+#tmux alias
+alias ta='tmux a -t'
+alias tl='tmux ls'
+alias tn='tmux new -s'
+
 # Other alias
 alias vs='code .'
 alias d='cd ~/Documents'

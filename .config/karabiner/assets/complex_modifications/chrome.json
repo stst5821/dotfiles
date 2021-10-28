@@ -2,7 +2,7 @@
   "title": "Modify Chrome App Keybind",
   "rules": [
     {
-      "description": "[Chrome]⌃ + K To Next Tab/⌃ + J To Previous Tab",
+      "description": "[Chrome]left-command + K To Next Tab/command + J To Previous Tab",
       "manipulators": [
         {
           "conditions": [
@@ -14,7 +14,7 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["control"],
+              "mandatory": ["left_command"],
               "optional": ["any"]
             }
           },
@@ -36,7 +36,7 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["control"],
+              "mandatory": ["left_command"],
               "optional": ["any"]
             }
           },

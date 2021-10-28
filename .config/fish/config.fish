@@ -33,7 +33,8 @@ function fish_user_key_bindings
 end
 
 # Github alias
-alias ad='git add .'
+alias st='git status'
+alias ad='git add'
 alias ci='git commit -m'
 alias ph='git push'
 alias co='git checkout'

@@ -2,7 +2,6 @@
   "explorer.confirmDragAndDrop": false,
   "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
-  "workbench.editor.enablePreview": false,
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
@@ -117,5 +116,9 @@
     "zip",
     "zlib",
     "wordpress"
-  ]
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  }
 }

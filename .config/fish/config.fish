@@ -43,6 +43,8 @@ alias br='git branch'
 alias pl='git pull'
 alias gb='git browse'
 alias gc='git compare'
+alias gs='git status'
+alias gd='git diff'
 
 #tmux alias
 alias ta='tmux a -t'

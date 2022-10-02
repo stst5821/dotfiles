@@ -5,7 +5,7 @@
     "command": "workbench.action.splitEditor"
   },
   {
-    "key": "ctrl+j",
+    "key": "cmd+j",
     "command": "workbench.action.previousEditor"
   },
   {
@@ -13,7 +13,7 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "ctrl+k",
+    "key": "cmd+k",
     "command": "workbench.action.nextEditor"
   },
   {
@@ -70,5 +70,125 @@
   {
     "key": "ctrl+[Minus]",
     "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+h",
+    "command": "-testing.toggleTestingPeekHistory",
+    "when": "testing.isPeekVisible"
+  },
+  {
+    "key": "cmd+[IntlRo]",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "command": "vscode-neovim.compositeEscape1",
+    "key": "j",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "j"
+  },
+  {
+    "key": "shift+down",
+    "command": "-cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+up",
+    "command": "-cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+right",
+    "command": "-cursorRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-deleteLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+left",
+    "command": "-cursorLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "shift+left",
+    "command": "cursorLeftSelect"
+  },
+  {
+    "key": "shift+right",
+    "command": "cursorRightSelect"
+  },
+  {
+    "key": "cmd+up",
+    "command": "cursorUpSelect"
+  },
+  {
+    "key": "cmd+down",
+    "command": "cursorDownSelect"
+  },
+  {
+    "key": "ctrl+shift+cmd",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-cursorWordLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+z shift",
+    "command": "cursorColumnSelectLeft",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+left",
+    "command": "-cursorColumnSelectLeft",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "cursorColumnSelectRight",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+right",
+    "command": "-cursorColumnSelectRight",
+    "when": "editorColumnSelection && textInputFocus"
   }
 ]

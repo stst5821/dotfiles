@@ -2,12 +2,14 @@
 # VERSION: 3.0
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/Users/st/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/Users/st/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/Users/st\x24
+SETUVAR Z_DATA:/Users/ts/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/ts/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/Users/ts\x24
 SETUVAR __fish_initialized:3100
-SETUVAR _fisher_oh_2D_my_2D_fish_2F_theme_2D_bobthefish_files:/Users/st/\x2econfig/fish/functions/__bobthefish_colors\x2efish\x1e/Users/st/\x2econfig/fish/functions/__bobthefish_display_colors\x2efish\x1e/Users/st/\x2econfig/fish/functions/__bobthefish_glyphs\x2efish\x1e/Users/st/\x2econfig/fish/functions/bobthefish_display_colors\x2efish\x1e/Users/st/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/Users/st/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/Users/st/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/st/\x2econfig/fish/functions/fish_right_prompt\x2efish\x1e/Users/st/\x2econfig/fish/functions/fish_title\x2efish
-SETUVAR _fisher_plugins:oh\x2dmy\x2dfish/theme\x2dbobthefish
+SETUVAR _fisher_jethrokuan_2F_z_files:/Users/ts/\x2econfig/fish/functions/__z\x2efish\x1e/Users/ts/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/ts/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/ts/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/ts/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fish_2D_nvm_files:/Users/ts/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/Users/ts/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/Users/ts/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/Users/ts/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/Users/ts/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/ts/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/Users/ts/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_theme_2D_bobthefish_files:/Users/ts/\x2econfig/fish/functions/__bobthefish_colors\x2efish\x1e/Users/ts/\x2econfig/fish/functions/__bobthefish_display_colors\x2efish\x1e/Users/ts/\x2econfig/fish/functions/__bobthefish_glyphs\x2efish\x1e/Users/ts/\x2econfig/fish/functions/bobthefish_display_colors\x2efish\x1e/Users/ts/\x2econfig/fish/functions/fish_greeting\x2efish\x1e/Users/ts/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/Users/ts/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/ts/\x2econfig/fish/functions/fish_right_prompt\x2efish\x1e/Users/ts/\x2econfig/fish/functions/fish_title\x2efish
+SETUVAR _fisher_plugins:oh\x2dmy\x2dfish/theme\x2dbobthefish\x1ejethrokuan/z\x1ejorgebucaran/fish\x2dnvm
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -35,3 +37,5 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR nvm_data:/Users/ts/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist

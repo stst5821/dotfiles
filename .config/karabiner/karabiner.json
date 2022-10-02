@@ -306,55 +306,6 @@
             ]
           },
           {
-            "description": "[Chrome]⌃ + K To Next Tab/⌃ + J To Previous Tab",
-            "manipulators": [
-              {
-                "conditions": [
-                  {
-                    "bundle_identifiers": ["^com\\.google\\.Chrome"],
-                    "type": "frontmost_application_if"
-                  }
-                ],
-                "from": {
-                  "key_code": "k",
-                  "modifiers": {
-                    "mandatory": ["control"],
-                    "optional": ["any"]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "right_arrow",
-                    "modifiers": ["left_command", "left_option"]
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "conditions": [
-                  {
-                    "bundle_identifiers": ["^com\\.google\\.Chrome"],
-                    "type": "frontmost_application_if"
-                  }
-                ],
-                "from": {
-                  "key_code": "j",
-                  "modifiers": {
-                    "mandatory": ["control"],
-                    "optional": ["any"]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "left_arrow",
-                    "modifiers": ["left_command", "left_option"]
-                  }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
             "description": "[Chrome]⌃ + H To Next History Page/⌃ + L To Previous History Page",
             "manipulators": [
               {

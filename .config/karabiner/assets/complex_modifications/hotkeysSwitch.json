@@ -1,0 +1,48 @@
+{
+  "title": "hotkeys to switch app",
+  "rules":
+  [
+    {
+      "description": "ctrl-1 to Chrome",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Google Chrome'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "ctrl-3 to vscode",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Visual Studio Code.app'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

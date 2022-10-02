@@ -156,13 +156,21 @@
       ]
     },
     {
-      "description": "vk1+; -> delete",
+      "description": "command + h でdeleteを送信する",
       "manipulators": [
         {
-          "type": "basic",
-          "conditions": [{ "type": "variable_if", "name": "vk1", "value": 1 }],
-          "from": { "key_code": "semicolon" },
-          "to": [{ "key_code": "delete_or_backspace" }]
+           "type": "basic",
+           "from": {
+               "key_code": "h",
+               "modifiers": {
+                   "mandatory": ["command"]
+               }
+           },
+           "to": [
+               {
+                   "key_code": "delete_or_backspace"
+               }
+           ]
         }
       ]
     },
@@ -183,6 +191,7 @@
         }
       ]
     },
+    
     {
       "description": "semicolon to enter",
       "manipulators": [

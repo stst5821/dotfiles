@@ -9,7 +9,11 @@
     }
   ],
   "vim.statusBarColorControl": false,
-  "editor.quickSuggestions": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
   "workbench.startupEditor": "newUntitledFile",
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.tabSize": 2,
@@ -26,12 +30,12 @@
   "vscode-pets.position": "explorer",
   "vscode-pets.theme": "castle",
   "workbench.colorCustomizations": {
-    "tab.activeBorder": "#FFF"
+    "tab.activeBorder": "#FFF",
+    "editorUnnecessaryCode.border": "#dd7aab"
     // "editorCursor.foreground": "#e60033"
     // "tab.activeBackground": "アクティブなタブの背景色",
     // "tab.activeForeground": "アクティブなタブの文字色",
   },
-  "editor.formatOnSave": true,
   "search.exclude": {
     "**/node_modules": false
   },
@@ -120,5 +124,27 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "emmet.includeLanguages": {
     "erb": "html"
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "material-icon-theme.activeIconPack": "none",
+  "cSpell.ignoreWords": ["laravel"],
+  "editor.parameterHints.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.hover.sticky": false,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/ts/.config/nvim/init.vim",
+  "vscode-neovim.logLevel": "none",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "editor.accessibilitySupport": "off",
+  "php.validate.enable": false,
+  "php.suggest.basic": false,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": 1,
+  "editor.snippetSuggestions": "top",
+  "editor.mouseWheelScrollSensitivity": 0.1
 }

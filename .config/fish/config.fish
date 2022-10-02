@@ -1,21 +1,28 @@
-set -x PATH $HOME/.anyenv/bin $PATH
-set -x PATH $HOME/.nodebrew/current/bin $PATH
-set PATH /usr/local/bin /usr/sbin $PATH
+# set -x PATH $HOME/.anyenv/bin $PATH
+# set -x PATH $HOME/.nodebrew/current/bin $PATH
+# set PATH /usr/local/bin /usr/sbin $PATH
 
-set -x PATH $HOME/.rbenv/bin $PATH
-status --is-interactive; and source (rbenv init -|psub)
+# set -x PATH $HOME/.rbenv/bin $PATH
+# status --is-interactive; and source (rbenv init -|psub)
 
 # fishにanyenvを入れる
 # シェルを立ち上げたときに読み込まれるファイルがある。.zrshとか
 # fishだとconfig.fishというのが読み込まれる。
 
-anyenv init - fish | source
+# anyenv init - fish | source
 # tmux
 
+#mampのpath
+set -g -x PATH $PATH /Applications/MAMP/bin/php/php7.4.2
+
+set -g -x PATH $PATH /opt/homebrew/bin
 set -g theme_nerd_fonts yes
 
 # powerlinefontだと文字化けするので無効化する。
 set -g theme_powerline_fonts no
+
+# hubコマンドのalias設定
+eval (hub alias -s)
 
 # コマンド実行時間の非表示
 set -g theme_display_date no
@@ -23,14 +30,6 @@ set -g theme_display_date no
 # vi mode
 fish_vi_key_bindings
 bind p fish_clipboard_paste
-
-# hubコマンドのalias設定
-eval (hub alias -s)
-
-# peco ctrl+rで検索
-function fish_user_key_bindings
-  bind \cr peco_select_history
-end
 
 # Github alias
 alias st='git status'
